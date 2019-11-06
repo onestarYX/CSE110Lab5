@@ -34,7 +34,7 @@ public class CelsiusTest extends TestCase{
         // (Hint: what is the length of the middle of the string?)
         assertTrue(string.substring(0, endIndex).equals(beginning));
     }
-    
+
     public void testCelsiusToCelsius()
     {
         Celsius temp = new Celsius(0);
@@ -54,3 +54,6 @@ public class CelsiusTest extends TestCase{
         assertEquals(212, convert.getValue(), delta);
     }
 }
+
+
+//
