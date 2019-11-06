@@ -35,7 +35,7 @@ public class CelsiusTest extends TestCase{
         assertTrue(string.substring(1, endIndex).equals(beginning));
     }
 
-    
+
     public void testCelsiusToCelsius()
     {
         Celsius temp = new Celsius(0);
